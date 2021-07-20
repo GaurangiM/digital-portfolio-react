@@ -5,7 +5,7 @@ import { Link, withRouter } from 'react-router-dom'
 import './NavBar.css'
 
 const NavBar = (props)=> {
-  console.log(props.location)
+  //console.log(props.location)
 
     const homeClass = (props.location.pathname === '/') ? 'active-item' : '' 
     const aboutClass = (props.location.pathname === '/about') ? 'active-item' : ''

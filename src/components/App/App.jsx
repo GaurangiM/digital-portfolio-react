@@ -7,6 +7,7 @@ import Projects from '../Projects/Projects'
 import Skills from '../Skills/Skills'
 import Contact from '../Contact/Contact'
 import NavBar from '../NavBar/NavBar'
+import GoHome from '../GoHome/GoHome'
 
 import './App.css'
 
@@ -21,6 +22,7 @@ const App = ()=> {
         <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
         <Route path="/" component={Home} exact/>
+        <GoHome />
       </BrowserRouter>
     </div>
   )
