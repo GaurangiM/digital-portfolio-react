@@ -4,7 +4,7 @@ import './Skills.css'
 
 const Skills = ()=> {
   return (
-    <div>
+    <div className="section-container">
       Skills page
     </div>
   )
