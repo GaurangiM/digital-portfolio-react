@@ -1,0 +1,52 @@
+.vector-frame {
+  position: absolute;
+  z-index: -10;
+  left: 0;
+  bottom: 0;
+  width: 45%;
+}
+
+.about-vector {
+  width: 520px;
+  max-height: 100%;
+  max-width: 100%;
+  
+}
+
+.about-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 60px 80px;
+}
+
+.about-main-left,
+.about-main-right {
+    width: 50%;
+}
+
+.about-main-right {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 60px;
+}
+
+.about-main-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media only screen and (max-width: 640px) {
+  .vector-frame {
+      width: 90%;
+  }
+
+  .about-main {
+    padding: 50px 32px;
+}
+
+.about-main-left,
+.about-main-right {
+    width: 100%;
+}
+}
