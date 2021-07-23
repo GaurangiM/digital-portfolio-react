@@ -36,10 +36,6 @@ export const skillList = [
         skillUrl: 'https://user-images.githubusercontent.com/32289626/126768625-f72b9623-f94f-455e-8c07-e91f5fef19b4.png',
     },
     {
-        skillName: 'Bootstrap',
-        skillUrl: 'https://user-images.githubusercontent.com/32289626/126768209-8a30a456-de4b-4d1b-bb7f-9ac8d4167666.png',
-    },
-    {
         skillName: 'VueJS',
         skillUrl: 'https://user-images.githubusercontent.com/32289626/126768882-4683ef5d-f3df-4846-a4f6-d20e460995f5.png'
     }
