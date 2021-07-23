@@ -1,0 +1,27 @@
+
+
+
+.skills-vector-frame {
+  position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  left: 0;
+  bottom: 0;
+  z-index: -10;
+  width: 80%;
+}
+
+.skills-vector {
+  max-height: 100%;
+  width: 60%;
+}
+
+@media only screen and (max-width: 640px) {
+  .skills-vector-frame {
+      width: 90%;
+  }
+
+  .skill-card-container {
+      margin: 80px 10%;
+  }
+}
