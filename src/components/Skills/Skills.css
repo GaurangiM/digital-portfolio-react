@@ -61,7 +61,9 @@
 
 @media only screen and (max-width: 640px) {
   .skills-vector-frame {
-      width: 90%;
+      width: 100%;
+      margin-bottom: 0;
+      margin-top:0;
   }
 
   .skill-card-container {
