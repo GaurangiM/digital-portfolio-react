@@ -56,9 +56,6 @@ const Contact = ()=> {
         <a href="https://www.linkedin.com/in/gaurangim/" className="social-icon">
           <img src={linkedin} alt="linkedin icon"  />
         </a>
-        <a href="#">
-          <img src={instagram} alt="instagram icon" className="social-icon"/>
-        </a>
       </div>
       <Footer phrase="Check out my projects !"
         toAddress="/projects"

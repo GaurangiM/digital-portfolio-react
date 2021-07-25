@@ -27,7 +27,8 @@
 
 .about-main-right {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
   padding-top: 10px;
 }
 
