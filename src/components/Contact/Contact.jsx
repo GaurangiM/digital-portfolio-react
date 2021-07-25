@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useForm, ValidationError } from '@formspree/react';
 
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
@@ -6,9 +7,16 @@ import contactAnime from '../../assets/contact-anime.gif'
 import github from '../../assets/gh.png'
 import linkedin from '../../assets/li.png'
 import instagram from '../../assets/in.png'
+import ContactReply from '../Contact/ContactReply'
 import './Contact.css'
 
 const Contact = ()=> {
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
+  const [state, handleSubmit] = useForm("xoqyngvz");
+  if (state.succeeded) {
+      return <ContactReply />;
+  }
   return (
     <div className="section-container">
       <Header heading="Get in touch"
@@ -19,16 +27,24 @@ const Contact = ()=> {
         </div>
         <div className="contact-main-right">
           <div className="contact-form-container">
-            <form className="contact-form">
+            <form className="contact-form"
+                  onSubmit={handleSubmit}
+                >
               <input type="email"
                       placeholder="Your email address"
                       name="email"
-                      className="input-box email-input"/>
+                      className="input-box email-input"
+                      />
               <textarea type="text"
                         placeholder="Your message"
                         className="input-box body-input"
-                        name="message" />
-              <button type="submit" className="contact-btn">Contact me</button>
+                        name="message" 
+                        value={message}
+                        onChange={(e)=> {
+                          setMessage(e.target.value)
+                        }}/>
+              <button type="submit" className="contact-btn"
+                      disabled={state.submitting}>Contact me</button>
             </form>
           </div>
         </div>

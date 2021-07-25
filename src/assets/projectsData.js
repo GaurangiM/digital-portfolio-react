@@ -27,7 +27,7 @@ export const projectsData = [
         projectName: 'Portfolio Website',
         projectDescription:
             'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj5.PNG',
+        imageUrl: 'https://user-images.githubusercontent.com/32289626/126902897-a174db0d-23bd-4937-8d2b-41690dc5396b.png',
         projectUrl: '#',
         githubRepo: 'https://github.com/GaurangiM/digital-portfolio-react'
     },

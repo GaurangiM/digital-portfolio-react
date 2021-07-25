@@ -10,7 +10,7 @@ const ProjectCard = ({
   githubRepo
 }) => {
   return (
-    <div className="project-card">
+    <div className="project-card shadow">
       <div className="image-container">
         <a href={projectUrl} className="project-external-link">
           <img src={imageUrl} alt="project" className="project-image"/>
