@@ -7,29 +7,29 @@ import { skillList } from '../../assets/skillsData'
 import SkillCard from './SkillCard'
 import './Skills.css'
 
-const Skills = ()=> {
+const Skills = () => {
   return (
     <div className="section-container">
       <Header heading="My Skills"
-              details="I am always on a journey of learning new skills, here are the skills I have learnt so far !"/>
+        details="I am always on a journey of learning new skills, here are the skills I have learnt so far !" />
       <div className="skills-page-container">
         <div className="skills-vector-frame">
           <img src={skillsAnime} alt="skills anime" className="skills-vector" />
         </div>
         <div className="skill-card-container">
           {
-            skillList.map(skill=> {
+            skillList.map(skill => {
               return <SkillCard skillName={skill.skillName}
-                                skillUrl={skill.skillUrl}/>
+                skillUrl={skill.skillUrl} />
             })
           }
         </div>
-        
+
       </div>
-      
+
       <Footer phrase="Get in touch !"
-              toAddress="/contact"/>
-      
+        toAddress="/contact" />
+
     </div>
   )
 }

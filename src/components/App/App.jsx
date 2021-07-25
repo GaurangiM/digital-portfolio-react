@@ -11,17 +11,17 @@ import GoHome from '../GoHome/GoHome'
 
 import './App.css'
 
-const App = ()=> {
+const App = () => {
   return (
     <div>
-      
+
       <BrowserRouter>
-      <NavBar />
+        <NavBar />
         <Route path="/about" component={About} />
         <Route path="/skills" component={Skills} />
         <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
-        <Route path="/" component={Home} exact/>
+        <Route path="/" component={Home} exact />
         <GoHome />
       </BrowserRouter>
     </div>

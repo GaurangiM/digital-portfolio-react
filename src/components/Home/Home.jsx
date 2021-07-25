@@ -1,5 +1,4 @@
 import React from 'react'
-import Typewriter from 'typewriter-effect';
 import { Link } from 'react-router-dom'
 
 import './Home.css'
@@ -21,7 +20,7 @@ const Home = () => {
         </Link>
       </div>
       <div className="splash-image">
-        <img src={HomeAnime} alt="Homepage anime" className="home-anime"/>
+        <img src={HomeAnime} alt="Homepage anime" className="home-anime" />
       </div>
     </div>
   )
