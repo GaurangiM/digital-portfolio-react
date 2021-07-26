@@ -47,8 +47,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  bottom: 0;
-  z-index: -10;
   width: 90%;
   margin-bottom: -150px;
   margin-top:-150px;

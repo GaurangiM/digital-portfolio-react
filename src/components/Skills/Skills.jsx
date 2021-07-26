@@ -14,7 +14,7 @@ const Skills = () => {
         details="I am always on a journey of learning new skills, here are the skills I have learnt so far !" />
       <div className="skills-page-container">
         <div className="skills-vector-frame">
-          <img src={skillsAnime} alt="skills anime" className="skills-vector" />
+          <img src="https://user-images.githubusercontent.com/32289626/126990642-c10c240b-0a43-42b9-9587-59b703f1fa7b.gif" alt="skills anime" className="skills-vector" />
         </div>
         <div className="skill-card-container">
           {
