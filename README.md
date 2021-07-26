@@ -37,3 +37,5 @@ Once the dependencies are installed, you can run  `npm start` to start the appli
 
 
 ---
+
+For building this portfolio, I followed [Madhav Bahl's video tutorials](https://github.com/MadhavBahl) and it was a great learning experience and I had great fun following his tutorials.
